@@ -1,0 +1,313 @@
+/*   Theme default css */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  color: #000;
+  font-size: 15px; 
+}
+:root{
+  --headingColor: #0093d3;
+  --blueSoft: #d7f5f5;
+  --white: #fff;
+}  
+button {
+  cursor: pointer; }
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; }
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif; 
+  color: var(--headingColor);
+  margin-top: 0px; 
+  font-weight: 500;
+  text-transform: normal;
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+ .padding{
+   padding-right: 0;
+ }
+.max1640{
+  max-width: 1640px;
+}
+ img{
+   max-width: 100%;
+ }
+
+
+/* default-css END 
+================================== */
+ 
+
+
+.first-page {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  min-height: 500px;
+  z-index: 2;
+  padding: 50px 0;
+  background-image: url('../img/back.jpg');
+}
+.secBack {
+  background-size: cover;
+  background-position: center;
+}
+.page-title p {
+  color: var(--white);
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.first-wrp {
+  margin-top: 100px;
+}
+
+.page-title h4 {
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.first-wrp h3 {
+  margin: 0;
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+}
+.page-title img {
+  width: 310px;
+  display: block;
+  margin: 5px auto;
+}
+
+
+
+/* First page css END && Second pages css START */
+
+
+.sec-page{
+  padding: 80px 0;
+  background-image: url('../img/back.jpg');
+}
+.cong-latter {
+  background: var(--white);
+  padding: 50px 100px;
+} 
+.cong-latter h4 {
+  text-transform: capitalize;
+  font-size: 34px;
+  font-family: 'Pacifico';
+  margin-bottom: 20px;
+}
+.desc-wrp-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.desc-wrp-footer .img img {
+  width: 200px;
+} 
+.desc-wrp-footer  .sigt p {
+  margin: 0;
+} 
+.sigt {
+  text-align: right;
+  padding-top: 40px;
+} 
+.desc-wrp-footer .sigt p span {
+  color: var(--headingColor);
+} 
+.desc-wrp-footer .sigt  a {
+  text-decoration: none;
+}
+.cong-latter.ftr {
+  padding: 40px 50px;
+  background: var(--blueSoft);
+}
+
+ 
+ 
+/* Second page css END && third pages css START */
+
+ 
+.team-members {
+  background: var(--headingColor);
+  padding: 100px 0;
+}
+.team-title {
+  text-align: center;
+}
+
+.team-title h2 {
+  color: #fff;
+  font-size: 38px;
+  font-family: 'Pacifico';
+}
+
+.team-title  p {
+  color: #fff;
+}
+
+.tem-block {
+  text-align: center;
+  max-width: 210px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.tem-block img {
+  width: 150px;
+  padding: 6px;
+  background: white;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.tem-block h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.tem-block i {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.tem-block p {
+  color: #fff;
+  text-align: left;
+}
+
+ 
+ 
+/* Second page css END && third pages css START */
+
+  
+.content-area h2 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+ 
+.c-blk {
+  display: flex;
+  align-items: center;
+  background: var(--blueSoft);
+  margin-bottom: 30px;
+  width: 100%;
+  height: 265px;
+  overflow: hidden;
+}
+.c-blk img {
+  min-width: 40%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.c-blk .c-wrp {
+  padding: 30px 40px;
+}
+
+.c-blk .c-wrp span {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.c-blk .c-wrp h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.c-blk .c-wrp h4 {
+  margin: 0;
+  color: #000;
+  padding-top: 30px;
+  font-family: Pacifico;
+}
+
+.content-area {
+  margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
